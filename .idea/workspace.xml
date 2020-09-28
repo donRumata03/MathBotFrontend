@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d0aY7Kn365ME7aa6fDLJCP2GTk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dictionaries" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Math_bot\Math_bot_frontend\different_scripts" />
+      <recent name="D:\Projects\Math_bot\Math_bot_frontend\dictionaries" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Math_bot\Math_bot_frontend\dictionaries" />
+      <recent name="D:\Projects\Math_bot\Math_bot_frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.bot">
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_bot_frontend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fast_input_processor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_bot_frontend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fast_input_processor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_bot_frontend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="speaker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_bot_frontend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/speaker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_writing_to_group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_bot_frontend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/different_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/different_scripts/test_writing_to_group.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.fast_input_processor" />
+        <item itemvalue="Python.test_writing_to_group" />
+        <item itemvalue="Python.solver" />
+        <item itemvalue="Python.speaker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="" />
+      <created>1591564508287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591564508287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="903" y="378" key="#Inspections" timestamp="1593711565623">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="903" y="378" key="#Inspections/62.0.2498.1440@62.0.2498.1440" timestamp="1593711565623" />
+    <state x="1029" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591624154884">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1029" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1591624154884" />
+    <state width="2477" height="461" key="GridCell.Tab.0.bottom" timestamp="1594472380181">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591647509292" />
+    <state width="2477" height="461" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1594472380181" />
+    <state width="2477" height="461" key="GridCell.Tab.0.center" timestamp="1594472380180">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="212" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591647509292" />
+    <state width="2477" height="461" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1594472380180" />
+    <state width="2477" height="461" key="GridCell.Tab.0.left" timestamp="1594472380180">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="212" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591647509292" />
+    <state width="2477" height="461" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1594472380180" />
+    <state width="2477" height="461" key="GridCell.Tab.0.right" timestamp="1594472380180">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="212" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591647509292" />
+    <state width="2477" height="461" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1594472380180" />
+    <state width="2477" height="248" key="GridCell.Tab.1.bottom" timestamp="1593785903046">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="182" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591633812431" />
+    <state width="2477" height="248" key="GridCell.Tab.1.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1593785903046" />
+    <state width="2477" height="248" key="GridCell.Tab.1.center" timestamp="1593785903045">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="182" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591633812431" />
+    <state width="2477" height="248" key="GridCell.Tab.1.center/62.0.2498.1440@62.0.2498.1440" timestamp="1593785903045" />
+    <state width="2477" height="248" key="GridCell.Tab.1.left" timestamp="1593785903045">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="182" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591633812431" />
+    <state width="2477" height="248" key="GridCell.Tab.1.left/62.0.2498.1440@62.0.2498.1440" timestamp="1593785903045" />
+    <state width="2477" height="248" key="GridCell.Tab.1.right" timestamp="1593785903046">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2539" height="182" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591633812431" />
+    <state width="2477" height="248" key="GridCell.Tab.1.right/62.0.2498.1440@62.0.2498.1440" timestamp="1593785903046" />
+    <state x="812" y="362" key="SettingsEditor" timestamp="1593768319034">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="812" y="362" key="SettingsEditor/62.0.2498.1440@62.0.2498.1440" timestamp="1593768319034" />
+    <state x="154" y="92" width="2314" height="1256" key="dock-window-1" timestamp="1593717562046">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="154" y="92" width="2314" height="1256" key="dock-window-1/62.0.2498.1440@62.0.2498.1440" timestamp="1593717562046" />
+    <state x="982" y="324" width="672" height="698" key="search.everywhere.popup" timestamp="1593984821335">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1591624075014" />
+    <state x="982" y="324" width="672" height="698" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1593984821335" />
+  </component>
+</project>
