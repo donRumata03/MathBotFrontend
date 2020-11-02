@@ -1,12 +1,12 @@
 [
     {
-        "date": 1594680924,
-        "from_id": 44622279,
-        "id": 5489,
+        "date": 1604336862,
+        "from_id": 215659697,
+        "id": 71,
         "out": 0,
-        "peer_id": 44622279,
-        "text": "plot 0.5x + 5 && 3sin(x^2) && 10sign(x) * sqrt(x) | for x in [-10; 10]",
-        "conversation_message_id": 4,
+        "peer_id": 215659697,
+        "text": "solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]",
+        "conversation_message_id": 71,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -14,27 +14,362 @@
         "is_hidden": false
     },
     {
-        "date": 1594680375,
-        "from_id": -158141262,
-        "id": 5488,
+        "date": 1604336553,
+        "from_id": -199959551,
+        "id": 70,
         "out": 1,
-        "peer_id": 44622279,
-        "text": "Упс... Кажется, Вы не подписаны на нашу группу: https://vk.com/math_jokes00. Подпишитесь, там много всего интересного - тогда поговорим 😉",
-        "conversation_message_id": 3,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос о решении уравнения (\"x ^ 2 = -y ^ 2\") : \nУравнение решено. Вот его корень: {\n \"x\" : 0,\n \"y\" : 0\n}",
+        "conversation_message_id": 70,
         "fwd_messages": [],
         "important": false,
-        "random_id": 982144161,
+        "random_id": -2003315026,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1594671065,
-        "from_id": 44622279,
-        "id": 5487,
+        "date": 1604336551,
+        "from_id": -199959551,
+        "id": 69,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]\" является корректной командой Quick Input Mode, поэтому запущен процесс \"solve\" с аргументами: \n{\n    \"variables\": [\n        \"x\",\n        \"y\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -10.0,\n            10.0\n        ],\n        \"y\": [\n            -100.0,\n            1.0\n        ]\n    },\n    \"function\": \"x ^ 2 = -y ^ 2\"\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 69,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 1695865955,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336550,
+        "from_id": 215659697,
+        "id": 68,
         "out": 0,
-        "peer_id": 44622279,
-        "text": "plot 0.5x + 5 && 3sin(x^2) && 10sign(x) * sqrt(x) | for x in [-10; 10]",
-        "conversation_message_id": 2,
+        "peer_id": 215659697,
+        "text": "solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]",
+        "conversation_message_id": 68,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336378,
+        "from_id": -199959551,
+        "id": 67,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "В данный момент Вы не находитесь ни в одном особенном виде общения, причём Ваше сообщение не является корректной командой Quick Input Mode. Пожалуйста, выберите необходимую опцию на клавиатуре, введите её самостоятельно, или же исползуйте команды Quick Input Mode.",
+        "conversation_message_id": 67,
+        "fwd_messages": [],
+        "keyboard": {
+            "one_time": true,
+            "author_id": -199959551,
+            "buttons": [
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Оптимизировать функцию",
+                            "payload": ""
+                        },
+                        "color": "primary"
+                    },
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Решить уравнение",
+                            "payload": ""
+                        },
+                        "color": "primary"
+                    }
+                ],
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Построить график",
+                            "payload": ""
+                        },
+                        "color": "primary"
+                    }
+                ]
+            ],
+            "inline": false
+        },
+        "important": false,
+        "random_id": 2014725573,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336376,
+        "from_id": 215659697,
+        "id": 66,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "Стоп",
+        "conversation_message_id": 66,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336217,
+        "from_id": -199959551,
+        "id": 65,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Вы можете остановить процесс...",
+        "conversation_message_id": 65,
+        "fwd_messages": [],
+        "keyboard": {
+            "one_time": true,
+            "author_id": -199959551,
+            "buttons": [
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Стоп",
+                            "payload": ""
+                        },
+                        "color": "negative"
+                    }
+                ]
+            ],
+            "inline": false
+        },
+        "important": false,
+        "random_id": -5512097,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336216,
+        "from_id": -199959551,
+        "id": 64,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Вы выбрали опцию Оптимизировать функцию. Аргументы: \"{'variables': ['x'], 'function': 'x ^ 2 + 2', 'target_minimum': 0.0, 'variable_ranges': {'x': (-100.0, 100.0)}}\". Процесс запущен.",
+        "conversation_message_id": 64,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -2031991731,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336215,
+        "from_id": -199959551,
+        "id": 63,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Диапазоны переменных установлены! Вот они: {'x': (-100.0, 100.0)}",
+        "conversation_message_id": 63,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -2106394359,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336214,
+        "from_id": 215659697,
+        "id": 62,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "x -100 100",
+        "conversation_message_id": 62,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336206,
+        "from_id": -199959551,
+        "id": 61,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Информация об аргументе \"Диапазоны переменных\": \n \"Пожалуйста, укажите для каждой переменной её максимальное и минимальное значение. Будет найден минимум целевой функции в данном диапазоне.\". \n\nВот корректный пример использования: \"x ∈ (-1; 10]; y: in 30.6 -> 100., 10 < z <= 11e-2\"",
+        "conversation_message_id": 61,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 1677561666,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336206,
+        "from_id": -199959551,
+        "id": 60,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Отлично! Теперь укажите значение этого аргумента.",
+        "conversation_message_id": 60,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -986305273,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336204,
+        "from_id": 215659697,
+        "id": 59,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "Диапазоны переменных",
+        "conversation_message_id": 59,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336203,
+        "from_id": -199959551,
+        "id": 58,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Выберите аргумент, значение которого хотите установить / изменить.",
+        "conversation_message_id": 58,
+        "fwd_messages": [],
+        "keyboard": {
+            "one_time": true,
+            "author_id": -199959551,
+            "buttons": [
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Целевая функция",
+                            "payload": ""
+                        },
+                        "color": "negative"
+                    }
+                ],
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Предполагаемый минимум",
+                            "payload": ""
+                        },
+                        "color": "negative"
+                    },
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Диапазоны переменных",
+                            "payload": ""
+                        },
+                        "color": "positive"
+                    }
+                ],
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "В главное меню",
+                            "payload": ""
+                        },
+                        "color": "default"
+                    }
+                ]
+            ],
+            "inline": false
+        },
+        "important": false,
+        "random_id": -1236705872,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336202,
+        "from_id": -199959551,
+        "id": 57,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Отлично! Но Вы указали не все аргументы.",
+        "conversation_message_id": 57,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 1092872692,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336202,
+        "from_id": -199959551,
+        "id": 56,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Предполагаемый минимум установлен! Вот он: 0.0",
+        "conversation_message_id": 56,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 300349342,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336200,
+        "from_id": 215659697,
+        "id": 55,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "0",
+        "conversation_message_id": 55,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336194,
+        "from_id": -199959551,
+        "id": 54,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Информация об аргументе \"Предполагаемый минимум\": \n \"Подтвердите, что целевая функция ограничена снизу на рассматриваемом множестве. Для этого введите произвольную известную Вам нижнюю границу множества значений функции (на данном множестве). В случае если введённое число не окажется минорирующим для исходной функции, бот будет работать с заметными погрешностями. \". \n\nВот корректный пример использования: \"0.1 или -23.9e30\"",
+        "conversation_message_id": 54,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -1160534655,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336194,
+        "from_id": -199959551,
+        "id": 53,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Отлично! Теперь укажите значение этого аргумента.",
+        "conversation_message_id": 53,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -791439823,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604336193,
+        "from_id": 215659697,
+        "id": 52,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "Предполагаемый минимум",
+        "conversation_message_id": 52,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,

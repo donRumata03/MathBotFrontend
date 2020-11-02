@@ -54,7 +54,7 @@ class Bot:
 
     def reset_user(self, user_id):
         """
-        It doesn`t delete all info about user. It only sets the dialog state to default
+        It doesn't delete all info about user. It only sets the dialog state to default
         """
         self.user_states[user_id] = USER_STATE_NOTHING
         self.processing_user_ids.pop(user_id, "I don`t need value, but I also don`t need exception")
