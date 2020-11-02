@@ -7,11 +7,9 @@ from api_wrapper import get_name_by_id, get_chat_info
 from threading import Timer
 
 
-
 from mylang import *
 
 from speaker import *
-
 from fast_input_processor import *
 
 
@@ -323,7 +321,7 @@ class Bot:
     ###                 Processing args                     ###
     ###########################################################
     def process_eq_solving_args(self, user_id: int, text: str, chat_message_id: int):
-        if debug:
+        if OUTPUT_DEBUG_INFORMATION:
             self.print("Processing equation solving command args...")
 
         # Useful functions:
@@ -428,7 +426,7 @@ class Bot:
 
     # Function Optimization Arguments:
     def process_func_optimizing_args(self, user_id : int, text: str, chat_message_id: int):
-        if debug:
+        if OUTPUT_DEBUG_INFORMATION:
             self.print("Processing function optimizing command args...")
 
         def has_this_all_args():
@@ -537,7 +535,7 @@ class Bot:
 
     # Plotting Arguments:
     def process_plotting_args(self, user_id: int, text: str, chat_message_id: int):
-        if debug:
+        if OUTPUT_DEBUG_INFORMATION:
             self.print("Processing plotting command args...")
 
         # Useful functions:
@@ -680,7 +678,7 @@ class Bot:
         text: str = message_data["text"]
         chat_message_id: int = message_data["conversation_message_id"]
 
-        if debug:
+        if OUTPUT_DEBUG_INFORMATION:
             username = self.get_name(user_id)
             self.print(f"Processing message \"{text}\" from user: \"{username}\"")
 
@@ -790,7 +788,7 @@ class Bot:
 
             unread_messages = self.get_unread_messages(user_id, chat_info)
 
-            if debug and unread_messages:
+            if OUTPUT_DEBUG_INFORMATION and unread_messages:
                 self.print(f"Got {len(unread_messages)} messages from user \"{self.get_name(user_id)}\"")
 
             for message in unread_messages:

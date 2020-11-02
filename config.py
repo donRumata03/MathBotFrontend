@@ -1,24 +1,64 @@
+import os
+import pathlib
+from enum import Enum
+
+from inspect import getsourcefile
+from os.path import abspath
+from pathlib import Path
+
 from vk_api.keyboard import VkKeyboardColor
 
+MathBot_root_dir = Path(abspath(getsourcefile(lambda: 0))).parent.parent.absolute()
+print("MathBot_root_dir is:", MathBot_root_dir)
 
-# default_key = "b8e34ba2603a410e101f19797d1ef3c412fb8c52a78580c05d7a20ac48e3a8ba1294dcba4ebf2cd9dcf9e"
-default_key = "f25ac6c094ecc9bfc1a7e0f37b739a800bca9dd5db3fa00b1c1d18dcf671c5d25951159fc4c966e5da7ba"
-# manage_key = "82066d27a1bd4961a16bf1cbf9a2ba48bbb55bd38a5340ce01db2f5e5b11b328b0d8de7c7f584d5e2b04a"
+
+class BotInstance(Enum):
+	MAIN_MATH_BOT = 1
+	TEST_MATH_BOT = 2
+	TEST_TEST_MATH_BOT = 3
+
+######################################################################################################
+bot_instance = BotInstance.TEST_TEST_MATH_BOT       ###### <-- The thing to change          ##########
+######################################################################################################
+
+
+""" Settings depending on bot instance """
+if bot_instance == BotInstance.MAIN_MATH_BOT:
+	print("?")
+	exit(3)
+
+elif bot_instance == BotInstance.TEST_MATH_BOT:
+	print("Running Test MathBot...")
+	default_key = "f25ac6c094ecc9bfc1a7e0f37b739a800bca9dd5db3fa00b1c1d18dcf671c5d25951159fc4c966e5da7ba" ## <- for test math bot
+	default_filename = "test_bot_temp.json"
+	group_with_messages_for_admins_id = 2 + 2000000000
+
+
+elif bot_instance == BotInstance.TEST_TEST_MATH_BOT:
+	print("Running TestTest MathBot...")
+	default_key = "55d251c9afe9dc58169766e04fd96b3629a179575f03b0de437f047aa2030273af044ca531d2f2f9cc66f" ## <- for test test math bot
+	group_with_messages_for_admins_id = 1 + 2000000000
 
 mainloop_delay_sec = 0.1
-debug = True
-default_filename = "bot_temp.json"
+OUTPUT_DEBUG_INFORMATION = True
 
-# solver_path = r"D:\Projects\Math_Bot\optimizer.exe"
-solver_path = r"D:\Projects\Math_bot\Math_bot_backend\cmake-build-release\Math_bot_backend.exe"
+if os.name == "posix":
+	# There are no .exe's in linux...
+	executable_name = "Math_bot_backend"
+elif os.name == "nt":
+	executable_name = "Math_bot_backend.exe"
+else:
+	print(f"Unknown system name: {os.name}")
+	exit(3)
 
-results_dir = r"D:\Projects\Math_Bot\results"
-query_dir = r"D:\Projects\Math_Bot\queries"
+solver_path = f"{MathBot_root_dir}/MathBotBackend/cmake-build-release/{executable_name}"
+
+results_dir = f"{MathBot_root_dir}/results"
+query_dir = f"{MathBot_root_dir}/queries"
 
 MY_ID = -158141262
 default_subscribe_check_group_name = "math_jokes00"
 # group_with_messages_for_admins_id = 447186473 + 2000000000
-group_with_messages_for_admins_id = 2 + 2000000000
 
 intelligent_mode_on = True
 
