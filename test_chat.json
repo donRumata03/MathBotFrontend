@@ -1,117 +1,12 @@
 [
     {
-        "date": 1604336862,
+        "date": 1604515631,
         "from_id": 215659697,
-        "id": 71,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]",
-        "conversation_message_id": 71,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1604336553,
-        "from_id": -199959551,
-        "id": 70,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос о решении уравнения (\"x ^ 2 = -y ^ 2\") : \nУравнение решено. Вот его корень: {\n \"x\" : 0,\n \"y\" : 0\n}",
-        "conversation_message_id": 70,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": -2003315026,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1604336551,
-        "from_id": -199959551,
-        "id": 69,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]\" является корректной командой Quick Input Mode, поэтому запущен процесс \"solve\" с аргументами: \n{\n    \"variables\": [\n        \"x\",\n        \"y\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -10.0,\n            10.0\n        ],\n        \"y\": [\n            -100.0,\n            1.0\n        ]\n    },\n    \"function\": \"x ^ 2 = -y ^ 2\"\n}\n Ждите завершения обраБОТки запроса.",
-        "conversation_message_id": 69,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 1695865955,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1604336550,
-        "from_id": 215659697,
-        "id": 68,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "solve x ^ 2 = -y ^ 2 for x in [-10, 10], y in [-100, 1]",
-        "conversation_message_id": 68,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1604336378,
-        "from_id": -199959551,
-        "id": 67,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "В данный момент Вы не находитесь ни в одном особенном виде общения, причём Ваше сообщение не является корректной командой Quick Input Mode. Пожалуйста, выберите необходимую опцию на клавиатуре, введите её самостоятельно, или же исползуйте команды Quick Input Mode.",
-        "conversation_message_id": 67,
-        "fwd_messages": [],
-        "keyboard": {
-            "one_time": true,
-            "author_id": -199959551,
-            "buttons": [
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Оптимизировать функцию",
-                            "payload": ""
-                        },
-                        "color": "primary"
-                    },
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Решить уравнение",
-                            "payload": ""
-                        },
-                        "color": "primary"
-                    }
-                ],
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Построить график",
-                            "payload": ""
-                        },
-                        "color": "primary"
-                    }
-                ]
-            ],
-            "inline": false
-        },
-        "important": false,
-        "random_id": 2014725573,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1604336376,
-        "from_id": 215659697,
-        "id": 66,
+        "id": 349,
         "out": 0,
         "peer_id": 215659697,
         "text": "Стоп",
-        "conversation_message_id": 66,
+        "conversation_message_id": 193,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -119,13 +14,116 @@
         "is_hidden": false
     },
     {
-        "date": 1604336217,
+        "date": 1604515616,
         "from_id": -199959551,
-        "id": 65,
+        "id": 348,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "",
+        "conversation_message_id": 192,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -2014320740,
+        "attachments": [
+            {
+                "type": "photo",
+                "photo": {
+                    "album_id": -64,
+                    "date": 1604515616,
+                    "id": 457246930,
+                    "owner_id": 215659697,
+                    "has_tags": false,
+                    "access_key": "143f0dd1e83b735a87",
+                    "sizes": [
+                        {
+                            "height": 42,
+                            "url": "https://sun9-37.userapi.com/lFw8s6Jpck88YBLN66SgKk9UbBLKX5ze7Rn46g/6KZWiCM7jcU.jpg",
+                            "type": "s",
+                            "width": 75
+                        },
+                        {
+                            "height": 73,
+                            "url": "https://sun9-22.userapi.com/bDE4HS-4XqUfO40FJap0nXYNmYxpxlDR5FayVA/F_0nhtLpx74.jpg",
+                            "type": "m",
+                            "width": 130
+                        },
+                        {
+                            "height": 340,
+                            "url": "https://sun9-3.userapi.com/G3gKjRk9Qw65jlo8nBYxEc-fM06UPxxWD2ZOnQ/2IHYmBDdMJo.jpg",
+                            "type": "x",
+                            "width": 604
+                        },
+                        {
+                            "height": 454,
+                            "url": "https://sun9-66.userapi.com/JPyEnDpCo6YbPOLvmPmm8fI0CA3sD-9dTZT_tQ/rMyRtdeAY0Q.jpg",
+                            "type": "y",
+                            "width": 807
+                        },
+                        {
+                            "height": 720,
+                            "url": "https://sun9-54.userapi.com/ULsav6Cjg0F40dwGHrZWzcSCxCMJ_ogDea83pA/pHyrPAkmKW0.jpg",
+                            "type": "z",
+                            "width": 1280
+                        },
+                        {
+                            "height": 900,
+                            "url": "https://sun9-62.userapi.com/RGCNX4nGyajov-KN4t6jdetbYyyMB6xAD8z5Ow/4wBxp84lfFM.jpg",
+                            "type": "w",
+                            "width": 1600
+                        },
+                        {
+                            "height": 87,
+                            "url": "https://sun9-68.userapi.com/t4HXpxElgfhYL_9In5wJe90s95nGU1GlBIShew/isS9VnwDbm0.jpg",
+                            "type": "o",
+                            "width": 130
+                        },
+                        {
+                            "height": 133,
+                            "url": "https://sun9-18.userapi.com/YkCY8i5g32gCFjN61OVuY2dG2HqH8zuWtdecUg/0tlQqvyAsmg.jpg",
+                            "type": "p",
+                            "width": 200
+                        },
+                        {
+                            "height": 213,
+                            "url": "https://sun9-52.userapi.com/-L9cOqTNZ83OMm6hw_HrOwl7C22fWbdrUtxZbQ/8aHernSWBk0.jpg",
+                            "type": "q",
+                            "width": 320
+                        },
+                        {
+                            "height": 340,
+                            "url": "https://sun9-8.userapi.com/OzoxiRm2jk8KfCaZ1jfLod-8sRwCzG9cRGRC3A/Qb1mlXmuc4Y.jpg",
+                            "type": "r",
+                            "width": 510
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        ],
+        "is_hidden": false
+    },
+    {
+        "date": 1604515615,
+        "from_id": -199959551,
+        "id": 347,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот Ваш график, который Вы просили:",
+        "conversation_message_id": 191,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -230007534,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604515614,
+        "from_id": -199959551,
+        "id": 346,
         "out": 1,
         "peer_id": 215659697,
         "text": "Вы можете остановить процесс...",
-        "conversation_message_id": 65,
+        "conversation_message_id": 190,
         "fwd_messages": [],
         "keyboard": {
             "one_time": true,
@@ -145,46 +143,46 @@
             "inline": false
         },
         "important": false,
-        "random_id": -5512097,
+        "random_id": 958605529,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336216,
+        "date": 1604515614,
         "from_id": -199959551,
-        "id": 64,
+        "id": 345,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Вы выбрали опцию Оптимизировать функцию. Аргументы: \"{'variables': ['x'], 'function': 'x ^ 2 + 2', 'target_minimum': 0.0, 'variable_ranges': {'x': (-100.0, 100.0)}}\". Процесс запущен.",
-        "conversation_message_id": 64,
+        "text": "Вы выбрали опцию Построить график. Аргументы: \"{'variables': ['x'], 'functions': 'x -10 && -x^2', 'variable_range': {'x': (-4.0, 4.0)}}\". Процесс запущен.",
+        "conversation_message_id": 189,
         "fwd_messages": [],
         "important": false,
-        "random_id": -2031991731,
+        "random_id": -819351924,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336215,
+        "date": 1604515613,
         "from_id": -199959551,
-        "id": 63,
+        "id": 344,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Диапазоны переменных установлены! Вот они: {'x': (-100.0, 100.0)}",
-        "conversation_message_id": 63,
+        "text": "Диапазон переменной установлен! Вот он: {'x': (-4.0, 4.0)}",
+        "conversation_message_id": 188,
         "fwd_messages": [],
         "important": false,
-        "random_id": -2106394359,
+        "random_id": 770821475,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336214,
+        "date": 1604515612,
         "from_id": 215659697,
-        "id": 62,
+        "id": 343,
         "out": 0,
         "peer_id": 215659697,
-        "text": "x -100 100",
-        "conversation_message_id": 62,
+        "text": "x ∈ (-4; 4]",
+        "conversation_message_id": 187,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -192,41 +190,41 @@
         "is_hidden": false
     },
     {
-        "date": 1604336206,
+        "date": 1604515605,
         "from_id": -199959551,
-        "id": 61,
+        "id": 342,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Информация об аргументе \"Диапазоны переменных\": \n \"Пожалуйста, укажите для каждой переменной её максимальное и минимальное значение. Будет найден минимум целевой функции в данном диапазоне.\". \n\nВот корректный пример использования: \"x ∈ (-1; 10]; y: in 30.6 -> 100., 10 < z <= 11e-2\"",
-        "conversation_message_id": 61,
+        "text": "Информация об аргументе \"Диапазон переменной\": \n \"Укажите интервал изменения переменной, на котором следует построить график функций.\". \n\nВот корректный пример использования: \"x ∈ (-4; 4]\"",
+        "conversation_message_id": 186,
         "fwd_messages": [],
         "important": false,
-        "random_id": 1677561666,
+        "random_id": 1738164792,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336206,
+        "date": 1604515604,
         "from_id": -199959551,
-        "id": 60,
+        "id": 341,
         "out": 1,
         "peer_id": 215659697,
         "text": "Отлично! Теперь укажите значение этого аргумента.",
-        "conversation_message_id": 60,
+        "conversation_message_id": 185,
         "fwd_messages": [],
         "important": false,
-        "random_id": -986305273,
+        "random_id": -194333968,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336204,
+        "date": 1604515603,
         "from_id": 215659697,
-        "id": 59,
+        "id": 340,
         "out": 0,
         "peer_id": 215659697,
-        "text": "Диапазоны переменных",
-        "conversation_message_id": 59,
+        "text": "Диапазон переменной",
+        "conversation_message_id": 184,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -234,13 +232,13 @@
         "is_hidden": false
     },
     {
-        "date": 1604336203,
+        "date": 1604515601,
         "from_id": -199959551,
-        "id": 58,
+        "id": 339,
         "out": 1,
         "peer_id": 215659697,
         "text": "Выберите аргумент, значение которого хотите установить / изменить.",
-        "conversation_message_id": 58,
+        "conversation_message_id": 183,
         "fwd_messages": [],
         "keyboard": {
             "one_time": true,
@@ -250,7 +248,7 @@
                     {
                         "action": {
                             "type": "text",
-                            "label": "Целевая функция",
+                            "label": "Функции",
                             "payload": ""
                         },
                         "color": "negative"
@@ -260,15 +258,7 @@
                     {
                         "action": {
                             "type": "text",
-                            "label": "Предполагаемый минимум",
-                            "payload": ""
-                        },
-                        "color": "negative"
-                    },
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Диапазоны переменных",
+                            "label": "Диапазон переменной",
                             "payload": ""
                         },
                         "color": "positive"
@@ -288,46 +278,46 @@
             "inline": false
         },
         "important": false,
-        "random_id": -1236705872,
+        "random_id": 808425958,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336202,
+        "date": 1604515600,
         "from_id": -199959551,
-        "id": 57,
+        "id": 338,
         "out": 1,
         "peer_id": 215659697,
         "text": "Отлично! Но Вы указали не все аргументы.",
-        "conversation_message_id": 57,
+        "conversation_message_id": 182,
         "fwd_messages": [],
         "important": false,
-        "random_id": 1092872692,
+        "random_id": 448959261,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336202,
+        "date": 1604515600,
         "from_id": -199959551,
-        "id": 56,
+        "id": 337,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Предполагаемый минимум установлен! Вот он: 0.0",
-        "conversation_message_id": 56,
+        "text": "Ваши функции приняты. Переменная в них: x",
+        "conversation_message_id": 181,
         "fwd_messages": [],
         "important": false,
-        "random_id": 300349342,
+        "random_id": -873050272,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336200,
+        "date": 1604515598,
         "from_id": 215659697,
-        "id": 55,
+        "id": 336,
         "out": 0,
         "peer_id": 215659697,
-        "text": "0",
-        "conversation_message_id": 55,
+        "text": "x -10 && -x^2",
+        "conversation_message_id": 180,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -335,41 +325,120 @@
         "is_hidden": false
     },
     {
-        "date": 1604336194,
+        "date": 1604515588,
         "from_id": -199959551,
-        "id": 54,
+        "id": 335,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Информация об аргументе \"Предполагаемый минимум\": \n \"Подтвердите, что целевая функция ограничена снизу на рассматриваемом множестве. Для этого введите произвольную известную Вам нижнюю границу множества значений функции (на данном множестве). В случае если введённое число не окажется минорирующим для исходной функции, бот будет работать с заметными погрешностями. \". \n\nВот корректный пример использования: \"0.1 или -23.9e30\"",
-        "conversation_message_id": 54,
+        "text": "Информация об аргументе \"Функции\": \n \"Функции для отображения на графике.\". \n\nВот корректный пример использования: \"0.5x + 5 && 3sin(x) && 5sqrt(abs(x) - 5) && 10sgn(x) * sqrt(abs(x))\"",
+        "conversation_message_id": 179,
         "fwd_messages": [],
         "important": false,
-        "random_id": -1160534655,
+        "random_id": -1861568969,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336194,
+        "date": 1604515587,
         "from_id": -199959551,
-        "id": 53,
+        "id": 334,
         "out": 1,
         "peer_id": 215659697,
         "text": "Отлично! Теперь укажите значение этого аргумента.",
-        "conversation_message_id": 53,
+        "conversation_message_id": 178,
         "fwd_messages": [],
         "important": false,
-        "random_id": -791439823,
+        "random_id": -2076519097,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1604336193,
+        "date": 1604515586,
         "from_id": 215659697,
-        "id": 52,
+        "id": 333,
         "out": 0,
         "peer_id": 215659697,
-        "text": "Предполагаемый минимум",
-        "conversation_message_id": 52,
+        "text": "Функции",
+        "conversation_message_id": 177,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604515582,
+        "from_id": -199959551,
+        "id": 332,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Выберите аргумент, значение которого хотите установить / изменить.",
+        "conversation_message_id": 176,
+        "fwd_messages": [],
+        "keyboard": {
+            "one_time": true,
+            "author_id": -199959551,
+            "buttons": [
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Функции",
+                            "payload": ""
+                        },
+                        "color": "primary"
+                    }
+                ],
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "Диапазон переменной",
+                            "payload": ""
+                        },
+                        "color": "negative"
+                    }
+                ],
+                [
+                    {
+                        "action": {
+                            "type": "text",
+                            "label": "В главное меню",
+                            "payload": ""
+                        },
+                        "color": "default"
+                    }
+                ]
+            ],
+            "inline": false
+        },
+        "important": false,
+        "random_id": -384057807,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604515582,
+        "from_id": -199959551,
+        "id": 331,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Вы выбрали опцию \"Построить график\". Вам нужно указать все необходимые аргументы:\n____________________________________\n Аргумент \"Функции\" пока не указан. Вот его описание: \n\"Функции для отображения на графике.\"\n____________________________________\n Аргумент \"Диапазон переменной\" пока не указан. Вот его описание: \n\"Укажите интервал изменения переменной, на котором следует построить график функций.\"\n____________________________________",
+        "conversation_message_id": 175,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -1004942740,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1604515580,
+        "from_id": 215659697,
+        "id": 330,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "Построить график",
+        "conversation_message_id": 174,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,

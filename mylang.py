@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-import wikipedia
 import json
 # from rating import wikipedia_worker
-import winsound
 import random
 import time
 from threading import Thread

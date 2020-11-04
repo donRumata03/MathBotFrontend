@@ -209,6 +209,7 @@ def start_function_optimization(user_id : int, iterations : int, function_text :
 
 """
 
+
 """ <Deprecated>:  """
 def start_solving_equation(user_id : int, iterations : int, equation_text : str):
     command = solver_path + " solve |" + equation_text + "|" + str(iterations) + "|" + str(user_id)
@@ -219,6 +220,7 @@ def start_solving_equation(user_id : int, iterations : int, equation_text : str)
 
 def get_graph_path(user_id : int, message_id : int):
     return os.path.join(results_dir, str(user_id), str(message_id) + ".png")
+
 
 def get_computational_results(user_id : int, message_id : int, user_process_name : str) -> Optional[str]:
     """
