@@ -171,7 +171,7 @@ class Bot:
             keyboard.add_button(argument_names[this_arg], color = get_color(this_arg, False))
 
         keyboard.add_line()
-        keyboard.add_button(to_main_menu_text, color = VkKeyboardColor.DEFAULT)
+        keyboard.add_button(to_main_menu_text, color = VkKeyboardColor.SECONDARY)
 
         self.send_message(
             user_id,
