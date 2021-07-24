@@ -73,3 +73,12 @@ USER_STATE_IN_PROCESS = 2
 # Appearance:
 MAX_COMMANDS_IN_KEYBOARD_ROW = 2
 command_button_color = VkKeyboardColor.PRIMARY  # It`s blue, green might be even better
+
+# System-specific library:
+
+if os.name == "posix":
+	white_button_coloring = VkKeyboardColor.SECONDARY
+elif os.name == "nt":
+	white_button_coloring = VkKeyboardColor.DEFAULT
+
+

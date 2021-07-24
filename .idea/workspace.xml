@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Math_bot_frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Math_bot_frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_chat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_messages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_messages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_test_bot_temp.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_test_bot_temp.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="af285892-93a8-42ba-82a4-aba09845af03" />
+  <component name="JupyterTrust" id="7977afee-a8ea-4445-842b-72eedfca3cf6" />
   <component name="ProjectId" id="1d0aY7Kn365ME7aa6fDLJCP2GTk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,9 +58,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -160,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.bot" />
-        <item itemvalue="Python.solver" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.fast_input_processor" />
         <item itemvalue="Python.test_writing_to_group" />
+        <item itemvalue="Python.solver" />
       </list>
     </recent_temporary>
   </component>
@@ -178,10 +182,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591564508287</updated>
-      <workItem from="1604332431926" duration="4734000" />
-      <workItem from="1604398410740" duration="652000" />
-      <workItem from="1604414041771" duration="1356000" />
-      <workItem from="1627119637333" duration="2037000" />
+      <workItem from="1604332431926" duration="3981000" />
+      <workItem from="1604338719792" duration="600000" />
+      <workItem from="1605369839300" duration="61000" />
+      <workItem from="1627147822182" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="add flexibility in config">
       <created>1604335092052</created>
@@ -190,14 +194,7 @@
       <option name="project" value="LOCAL" />
       <updated>1604335092052</updated>
     </task>
-    <task id="LOCAL-00002" summary="make work for test_test_math_bot">
-      <created>1604336922835</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604336922835</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,34 +202,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexibility in config" />
-    <MESSAGE value="make work for test_test_math_bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="make work for test_test_math_bot" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="2455" height="101" key="GridCell.Tab.0.bottom" timestamp="1627120994175">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="2455" height="101" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
-    <state width="2455" height="101" key="GridCell.Tab.0.center" timestamp="1627120994175">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="2455" height="101" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
-    <state width="2455" height="101" key="GridCell.Tab.0.left" timestamp="1627120994175">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="2455" height="101" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
-    <state width="2455" height="101" key="GridCell.Tab.0.right" timestamp="1627120994175">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="2455" height="101" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1627120427493">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1627120427493" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flexibility in config" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627120994169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Math_bot_frontend$config.coverage" NAME="config Coverage Results" MODIFIED="1604336101623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Math_bot_frontend$solver.coverage" NAME="solver Coverage Results" MODIFIED="1627120986409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MathBotFrontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627148317681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1604336106416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
