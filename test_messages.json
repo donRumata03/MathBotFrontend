@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "conversation": {
+            "peer": {
+                "id": 215659697,
+                "type": "user",
+                "local_id": 215659697
+            },
+            "last_message_id": 484,
+            "in_read": 475,
+            "out_read": 484,
+            "last_conversation_message_id": 288,
+            "unread_count": 1,
+            "is_marked_unread": false,
+            "important": false,
+            "unanswered": true,
+            "can_write": {
+                "allowed": true
+            }
+        },
+        "last_message": {
+            "date": 1627121604,
+            "from_id": 215659697,
+            "id": 484,
+            "out": 0,
+            "peer_id": 215659697,
+            "text": "[[ask]] Добрый день, дамы и господа!",
+            "conversation_message_id": 288,
+            "fwd_messages": [],
+            "important": false,
+            "random_id": 0,
+            "attachments": [],
+            "is_hidden": false
+        }
+    }
+]

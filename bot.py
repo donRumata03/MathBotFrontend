@@ -690,10 +690,10 @@ class Bot:
             self.send_message(user_id, "Спасибо за активность! Ваше сообщение будет отправленно админам. Ждите ответа!")
             return
 
-        is_subscribed: bool = api_wrapper.user_is_in_community(self.vk, user_id, self.subscribe_check_group_name)
-        if not is_subscribed:
-            self.send_message(user_id, speaker.get_text_for_non_subscribed(self.subscribe_check_group_name))
-            return
+        # is_subscribed: bool = api_wrapper.user_is_in_community(self.vk, user_id, self.subscribe_check_group_name)
+        # if not is_subscribed:
+        #     self.send_message(user_id, speaker.get_text_for_non_subscribed(self.subscribe_check_group_name))
+        #     return
 
         if text in aborting_texts:
             self.reset_user(user_id)

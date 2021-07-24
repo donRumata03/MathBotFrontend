@@ -4,8 +4,8 @@
     <list default="true" id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_chat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_messages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_messages.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.bot" />
+        <item itemvalue="Python.solver" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.fast_input_processor" />
         <item itemvalue="Python.test_writing_to_group" />
-        <item itemvalue="Python.solver" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591564508287</updated>
-      <workItem from="1604332431926" duration="3981000" />
+      <workItem from="1604332431926" duration="4734000" />
+      <workItem from="1604398410740" duration="652000" />
+      <workItem from="1604414041771" duration="1356000" />
+      <workItem from="1627119637333" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="add flexibility in config">
       <created>1604335092052</created>
@@ -187,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604335092052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make work for test_test_math_bot">
+      <created>1604336922835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604336922835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,36 +205,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexibility in config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flexibility in config" />
+    <MESSAGE value="make work for test_test_math_bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="make work for test_test_math_bot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="936" y="283" key="CommitChangelistDialog2" timestamp="1604335091195">
+    <state width="2455" height="101" key="GridCell.Tab.0.bottom" timestamp="1627120994175">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="936" y="283" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1604335091195" />
-    <state width="2455" height="330" key="GridCell.Tab.0.bottom" timestamp="1604336106422">
+    <state width="2455" height="101" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
+    <state width="2455" height="101" key="GridCell.Tab.0.center" timestamp="1627120994175">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="330" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1604336106422" />
-    <state width="2455" height="330" key="GridCell.Tab.0.center" timestamp="1604336106422">
+    <state width="2455" height="101" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
+    <state width="2455" height="101" key="GridCell.Tab.0.left" timestamp="1627120994175">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="330" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1604336106422" />
-    <state width="2455" height="330" key="GridCell.Tab.0.left" timestamp="1604336106422">
+    <state width="2455" height="101" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
+    <state width="2455" height="101" key="GridCell.Tab.0.right" timestamp="1627120994175">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="330" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1604336106422" />
-    <state width="2455" height="330" key="GridCell.Tab.0.right" timestamp="1604336106422">
+    <state width="2455" height="101" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1627120994175" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1627120427493">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="330" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1604336106422" />
-    <state x="903" y="453" key="Vcs.Push.Dialog.v2" timestamp="1604335097087">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="903" y="453" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1604335097087" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1627120427493" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1604336106416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627120994169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Math_bot_frontend$config.coverage" NAME="config Coverage Results" MODIFIED="1604336101623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Math_bot_frontend$solver.coverage" NAME="solver Coverage Results" MODIFIED="1627120986409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
