@@ -71,7 +71,7 @@ def get_target_and_arg_paths(user_id : int, message_id : int):
     return target_path, arg_path
 
 
-def launch_function_optimization(user_id : int, message_id : int, name : str, iterations = 1000000,  **kwargs):
+def launch_function_optimization(user_id : int, message_id : int, name : str, iterations = 5000000,  **kwargs):
     """
     :does: something
     :returns: Nothing
@@ -103,7 +103,7 @@ def launch_function_optimization(user_id : int, message_id : int, name : str, it
 
 
 
-def launch_equation_solving(user_id : int, message_id : int, name : str, iterations = 1000000, **kwargs):
+def launch_equation_solving(user_id : int, message_id : int, name : str, iterations = 3000000, **kwargs):
     """
     :does: Something
     :returns: Nothing

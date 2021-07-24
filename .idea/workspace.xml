@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_chat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_messages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_messages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_test_bot_temp.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_test_bot_temp.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <workItem from="1604332431926" duration="3981000" />
       <workItem from="1604338719792" duration="600000" />
       <workItem from="1605369839300" duration="61000" />
-      <workItem from="1627147822182" duration="2429000" />
+      <workItem from="1627147822182" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="add flexibility in config">
       <created>1604335092052</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627150554515</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix falling if there's no access to admins' chat">
+      <created>1627150959290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627150959290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,11 +213,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexibility in config" />
     <MESSAGE value="Make button colors universal for windows and linux (by configuring)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make button colors universal for windows and linux (by configuring)" />
+    <MESSAGE value="Fix falling if there's no access to admins' chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix falling if there's no access to admins' chat" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Math_bot_frontend$config.coverage" NAME="config Coverage Results" MODIFIED="1604336101623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MathBotFrontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627150623102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MathBotFrontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627150907929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1604336106416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
