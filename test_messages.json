@@ -2,14 +2,14 @@
     {
         "conversation": {
             "peer": {
-                "id": 215659697,
+                "id": 334622475,
                 "type": "user",
-                "local_id": 215659697
+                "local_id": 334622475
             },
-            "last_message_id": 484,
-            "in_read": 475,
-            "out_read": 484,
-            "last_conversation_message_id": 288,
+            "last_message_id": 503,
+            "in_read": 502,
+            "out_read": 503,
+            "last_conversation_message_id": 27,
             "unread_count": 1,
             "is_marked_unread": false,
             "important": false,
@@ -19,13 +19,13 @@
             }
         },
         "last_message": {
-            "date": 1627121604,
-            "from_id": 215659697,
-            "id": 484,
+            "date": 1627122249,
+            "from_id": 334622475,
+            "id": 503,
             "out": 0,
-            "peer_id": 215659697,
-            "text": "[[ask]] Добрый день, дамы и господа!",
-            "conversation_message_id": 288,
+            "peer_id": 334622475,
+            "text": "Оптимизировать функцию",
+            "conversation_message_id": 27,
             "fwd_messages": [],
             "important": false,
             "random_id": 0,
