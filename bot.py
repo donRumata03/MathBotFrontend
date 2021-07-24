@@ -686,8 +686,14 @@ class Bot:
         if text.startswith("[[ask]]") or text.startswith("[ask]"):
             naked_message = text[len("[[ask]]"):].strip() if text.startswith("[[ask]]") else text[len("[ask]"):].strip()
             self.print(console_color.BLUE + "Message to ADMINS detected: " + naked_message + console_color.END)
-            self.send_message(group_with_messages_for_admins_id, f"Message from a subscriber {self.get_name(user_id)} (https://vk.com/id{str(user_id)}): \"" + naked_message + "\"")
-            self.send_message(user_id, "Спасибо за активность! Ваше сообщение будет отправленно админам. Ждите ответа!")
+
+            try:
+                self.send_message(group_with_messages_for_admins_id, f"Message from a subscriber {self.get_name(user_id)} (https://vk.com/id{str(user_id)}): \"" + naked_message + "\"")
+                self.send_message(user_id, "Спасибо за активность! Ваше сообщение будет отправленно админам. Ждите ответа!")
+                print("User's message is successfully transmitted to admins' chat!")
+            except vk_api.exceptions.ApiError:
+                print_red("User's message CAN'T be transmitted to admins' chat! (No access...)")
+
             return
 
         # is_subscribed: bool = api_wrapper.user_is_in_community(self.vk, user_id, self.subscribe_check_group_name)
