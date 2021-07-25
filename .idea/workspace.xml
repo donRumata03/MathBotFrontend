@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c839fe-e469-4e27-94c6-5f1a70ea06f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_chat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_test_bot_temp.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_test_bot_temp.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="7977afee-a8ea-4445-842b-72eedfca3cf6" />
+  <component name="JupyterTrust" id="af285892-93a8-42ba-82a4-aba09845af03" />
   <component name="ProjectId" id="1d0aY7Kn365ME7aa6fDLJCP2GTk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -157,6 +173,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.bot" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.fast_input_processor" />
+      <item itemvalue="Python.solver" />
+      <item itemvalue="Python.test_writing_to_group" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.bot" />
@@ -210,15 +233,29 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexibility in config" />
     <MESSAGE value="Make button colors universal for windows and linux (by configuring)" />
     <MESSAGE value="Fix falling if there's no access to admins' chat" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix falling if there's no access to admins' chat" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="453" width="585" height="534" key="find.popup" timestamp="1627241201079">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1018" y="453" width="585" height="534" key="find.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1627241201079" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1627241197910">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1627241197910" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627153869578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Math_bot_frontend$config.coverage" NAME="config Coverage Results" MODIFIED="1604336101623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Math_bot_frontend$solver.coverage" NAME="solver Coverage Results" MODIFIED="1627120986409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MathBotFrontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1627150907929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Math_bot_frontend$bot.coverage" NAME="bot Coverage Results" MODIFIED="1604336106416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
