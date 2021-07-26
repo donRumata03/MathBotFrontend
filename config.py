@@ -83,4 +83,4 @@ elif os.name == "nt":
 
 # Regulating performance
 optimizing_iterations = solving_iterations = 1000000
-max_query_processing_time_sec = 40
+max_query_processing_time_sec = 5
