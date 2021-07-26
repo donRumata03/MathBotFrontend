@@ -18,7 +18,7 @@ class BotInstance(Enum):
 	TEST_TEST_MATH_BOT = 3
 
 ######################################################################################################
-bot_instance = BotInstance.TEST_TEST_MATH_BOT       ###### <-- The thing to change          ##########
+bot_instance = BotInstance.TEST_MATH_BOT       ###### <-- The thing to change          ##########
 ######################################################################################################
 
 
