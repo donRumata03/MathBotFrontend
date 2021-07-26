@@ -702,7 +702,7 @@ class Bot:
         #     return
 
         if text.lower() in aborting_texts:
-            if text in aborting_texts:
+            if text[0].isupper():
                 self.reset_user(user_id)
                 self.show_command_keyboard(user_id)
             else:
