@@ -1,5 +1,5 @@
 # Stoppers:
-to_main_menu_text = "В главное меню"
+to_main_menu_text = "в главное меню"
 aborting_texts = {
     "стоп",
     "начать",
