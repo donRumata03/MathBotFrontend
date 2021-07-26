@@ -702,8 +702,11 @@ class Bot:
         #     return
 
         if text.lower() in aborting_texts:
-            self.reset_user(user_id)
-            self.show_command_keyboard(user_id)
+            if text in aborting_texts:
+                self.reset_user(user_id)
+                self.show_command_keyboard(user_id)
+            else:
+                self.send_message(user_id, "Вижу, что Вы хотите выйти в главное меню… Но с ботом нужно обращаться культурно: писать с большой буквы! И тогда Вам воздастся!")
             return
 
         if self.user_states[user_id] == USER_STATE_NOTHING:
