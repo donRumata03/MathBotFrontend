@@ -100,8 +100,8 @@ def launch_function_optimization(user_id : int, message_id : int, name : str, it
 
     open(arg_path, "wb").write(json.dumps(res_json, indent = 4, ensure_ascii = False).encode(encoding, errors = "ignore"))
 
-    command = f"{solver_path} optimize {arg_path}"
-    launch_in_new_thread(command)
+    command_parts = [solver_path, "optimize", arg_path]
+    safe_function_runner.launch_in_new_thread(command_parts, target_path)
 
 
 
@@ -127,8 +127,8 @@ def launch_equation_solving(user_id : int, message_id : int, name : str, iterati
 
     to_utf8_json_file(res_json, arg_path)
 
-    command = f"{solver_path} solve {arg_path}"
-    launch_in_new_thread(command)
+    command_parts = [solver_path, "solve", arg_path]
+    safe_function_runner.launch_in_new_thread(command_parts, target_path)
 
 
 def extract_function_list_from_string(string : str):
@@ -180,8 +180,8 @@ def launch_plotting(user_id : int, message_id : int, name : str, **kwargs):
 
     to_utf8_json_file(res_json, arg_path)
 
-    command = f"{solver_path} plot {arg_path}"
-    launch_in_new_thread(command)
+    command_parts = [solver_path, "plot", arg_path]
+    safe_function_runner.launch_in_new_thread(command_parts, text_path)
 
 
 
