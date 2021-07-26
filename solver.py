@@ -9,6 +9,8 @@ from config import *
 
 from mylang import to_utf8_json_file
 
+import safe_function_runner
+
 # Argument checking:
 def check_function(function : str) -> Union[None, list]:
     """
@@ -71,7 +73,7 @@ def get_target_and_arg_paths(user_id : int, message_id : int):
     return target_path, arg_path
 
 
-def launch_function_optimization(user_id : int, message_id : int, name : str, iterations = 1000000,  **kwargs):
+def launch_function_optimization(user_id : int, message_id : int, name : str, iterations = optimizing_iterations,  **kwargs):
     """
     :does: something
     :returns: Nothing
@@ -103,7 +105,7 @@ def launch_function_optimization(user_id : int, message_id : int, name : str, it
 
 
 
-def launch_equation_solving(user_id : int, message_id : int, name : str, iterations = 1000000, **kwargs):
+def launch_equation_solving(user_id : int, message_id : int, name : str, iterations = solving_iterations, **kwargs):
     """
     :does: Something
     :returns: Nothing
@@ -182,15 +184,6 @@ def launch_plotting(user_id : int, message_id : int, name : str, **kwargs):
     launch_in_new_thread(command)
 
 
-# Launching commands:
-def launch_in_new_thread(command : str):
-    print(f"executing command: \"{command}\" in new thread")
-
-    def launch_command():
-        os.system(command)
-    t = Thread(target = launch_command, args = ())
-    t.daemon = True
-    t.start()
 
 
 """
@@ -211,10 +204,10 @@ def start_function_optimization(user_id : int, iterations : int, function_text :
 
 
 """ <Deprecated>:  """
-def start_solving_equation(user_id : int, iterations : int, equation_text : str):
-    command = solver_path + " solve |" + equation_text + "|" + str(iterations) + "|" + str(user_id)
-    print("Launching " + command)
-    launch_in_new_thread(command)
+# def start_solving_equation(user_id : int, iterations : int, equation_text : str):
+#     command = solver_path + " solve |" + equation_text + "|" + str(iterations) + "|" + str(user_id)
+#     print("Launching " + command)
+#     launch_in_new_thread(command)
 """ <\\Deprecated>  """
 
 

@@ -1,12 +1,12 @@
 [
     {
-        "date": 1627151116,
+        "date": 1627295234,
         "from_id": 215659697,
-        "id": 585,
+        "id": 1063,
         "out": 0,
         "peer_id": 215659697,
-        "text": "x ∈ (-100; 100] y ∈ (-100; 100]",
-        "conversation_message_id": 328,
+        "text": "solve x^x^x^x = 10000000000*exp(x) | for x in (-10, 10)",
+        "conversation_message_id": 565,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -14,98 +14,41 @@
         "is_hidden": false
     },
     {
-        "date": 1627151091,
+        "date": 1627292273,
         "from_id": -199959551,
-        "id": 584,
+        "id": 1062,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Вы должны указать корректное значение аргумента \"Диапазоны переменных\"! \n\"Пожалуйста, укажите для каждой переменной её максимальное и минимальное значение. Будет найден минимум целевой функции в данном диапазоне.\". \n\nВот корректный пример использования: \"x ∈ (-1; 10]; y: in 30.6 -> 100., 10 < z <= 11e-2\"",
-        "conversation_message_id": 327,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос о решении уравнения (\"x^x^x^x = 10000000000*exp(x)\") : \nНе получилось решить уравнение! В ходе решения возникла ошбика: Unfortunately, I couldn`t find the solution for the equation!",
+        "conversation_message_id": 564,
         "fwd_messages": [],
         "important": false,
-        "random_id": -971629410,
+        "random_id": -1156622473,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1627151091,
+        "date": 1627292271,
         "from_id": -199959551,
-        "id": 583,
+        "id": 1061,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Вы допустили ошибку при указании значения аргумента. Пожалуйста, повторите попытку!",
-        "conversation_message_id": 326,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"solve x^x^x^x = 10000000000*exp(x) | for x in (-10, 10)\" является корректной командой Quick Input Mode, поэтому запущен процесс \"solve\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -10.0,\n            10.0\n        ]\n    },\n    \"function\": \"x^x^x^x = 10000000000*exp(x)\"\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 563,
         "fwd_messages": [],
         "important": false,
-        "random_id": 1936395895,
+        "random_id": 444465654,
         "attachments": [],
         "is_hidden": false
     },
     {
-        "date": 1627151090,
-        "from_id": -199959551,
-        "id": 582,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Вы неправильно указали диапазоны переменных, так как в них либо присутствуют лишние переменные, и / или не присутствуют те, которые Вы указали в функции / уравнении.\nЭти переменные лишние: ['н']! Диапазонов этих переменных не хватает: ['y']!",
-        "conversation_message_id": 325,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": -1178158945,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151089,
+        "date": 1627292270,
         "from_id": 215659697,
-        "id": 581,
+        "id": 1060,
         "out": 0,
         "peer_id": 215659697,
-        "text": "x ∈ (-100; 100] y ∈ (-100; 100]",
-        "conversation_message_id": 324,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false,
-        "update_time": 1627151094
-    },
-    {
-        "date": 1627151071,
-        "from_id": -199959551,
-        "id": 580,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Информация об аргументе \"Диапазоны переменных\": \n \"Пожалуйста, укажите для каждой переменной её максимальное и минимальное значение. Будет найден минимум целевой функции в данном диапазоне.\". \n\nВот корректный пример использования: \"x ∈ (-1; 10]; y: in 30.6 -> 100., 10 < z <= 11e-2\"",
-        "conversation_message_id": 323,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 2133457948,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151070,
-        "from_id": -199959551,
-        "id": 579,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Отлично! Теперь укажите значение этого аргумента.",
-        "conversation_message_id": 322,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 1862475691,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151069,
-        "from_id": 215659697,
-        "id": 578,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "Диапазоны переменных",
-        "conversation_message_id": 321,
+        "text": "solve x^x^x^x = 10000000000*exp(x) | for x in (-10, 10)",
+        "conversation_message_id": 562,
         "fwd_messages": [],
         "important": false,
         "random_id": 0,
@@ -113,13 +56,223 @@
         "is_hidden": false
     },
     {
-        "date": 1627151068,
+        "date": 1627292211,
         "from_id": -199959551,
-        "id": 577,
+        "id": 1059,
         "out": 1,
         "peer_id": 215659697,
-        "text": "Выберите аргумент, значение которого хотите установить / изменить.",
-        "conversation_message_id": 320,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос об оптимизации функции (\"x^x\") : \nЯ смог найти минимум функции \"x^x\" при этих значениях переменных: \n{\n \"x\" : 0.36788\n}\nИтоговое значение функции в этой точке: 0.692200.",
+        "conversation_message_id": 561,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 1428350127,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627292210,
+        "from_id": -199959551,
+        "id": 1058,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"optimize x^x | for x in -10; 1 | minorant -1\" является корректной командой Quick Input Mode, поэтому запущен процесс \"optimize\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -10.0,\n            1.0\n        ]\n    },\n    \"function\": \"x^x\",\n    \"target_minimum\": -1.0\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 560,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 185771371,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627292209,
+        "from_id": 215659697,
+        "id": 1057,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "optimize x^x | for x in -10; 1 | minorant -1",
+        "conversation_message_id": 559,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291985,
+        "from_id": -199959551,
+        "id": 1056,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос об оптимизации функции (\"x^x\") : \nЯ смог найти минимум функции \"x^x\" при этих значениях переменных: \n{\n \"x\" : 0.36788\n}\nИтоговое значение функции в этой точке: 0.692200.",
+        "conversation_message_id": 558,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 455844229,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291983,
+        "from_id": -199959551,
+        "id": 1055,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"optimize x^x | for x in -10; 1 | minorant -1\" является корректной командой Quick Input Mode, поэтому запущен процесс \"optimize\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -10.0,\n            1.0\n        ]\n    },\n    \"function\": \"x^x\",\n    \"target_minimum\": -1.0\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 557,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 732419834,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291982,
+        "from_id": 215659697,
+        "id": 1054,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "optimize x^x | for x in -10; 1 | minorant -1",
+        "conversation_message_id": 556,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291972,
+        "from_id": -199959551,
+        "id": 1053,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос об оптимизации функции (\"x^x\") : \nЯ смог найти минимум функции \"x^x\" при этих значениях переменных: \n{\n \"x\" : 0.36788\n}\nИтоговое значение функции в этой точке: 0.692200.",
+        "conversation_message_id": 555,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -191500795,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291970,
+        "from_id": -199959551,
+        "id": 1052,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"optimize x^x | for x in -1; 1 | minorant -1\" является корректной командой Quick Input Mode, поэтому запущен процесс \"optimize\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -1.0,\n            1.0\n        ]\n    },\n    \"function\": \"x^x\",\n    \"target_minimum\": -1.0\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 554,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 191470769,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291970,
+        "from_id": 215659697,
+        "id": 1051,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "optimize x^x | for x in -1; 1 | minorant -1",
+        "conversation_message_id": 553,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291960,
+        "from_id": -199959551,
+        "id": 1050,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос об оптимизации функции (\"x^x\") : \nЯ смог найти минимум функции \"x^x\" при этих значениях переменных: \n{\n \"x\" : 0.36788\n}\nИтоговое значение функции в этой точке: 0.692200.",
+        "conversation_message_id": 552,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 1661556661,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291959,
+        "from_id": -199959551,
+        "id": 1049,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"optimize x^x | for x in 0.001; 1 | minorant -1\" является корректной командой Quick Input Mode, поэтому запущен процесс \"optimize\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            0.001,\n            1.0\n        ]\n    },\n    \"function\": \"x^x\",\n    \"target_minimum\": -1.0\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 551,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -1451467327,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291958,
+        "from_id": 215659697,
+        "id": 1048,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "optimize x^x | for x in 0.001; 1 | minorant -1",
+        "conversation_message_id": 550,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291949,
+        "from_id": -199959551,
+        "id": 1047,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "_____________________________________________________\nУважаемый Владимир Латыпов, вот ответ на Ваш запрос об оптимизации функции (\"x^x\") : \nЯ смог найти минимум функции \"x^x\" при этих значениях переменных: \n{\n \"x\" : 0.36788\n}\nИтоговое значение функции в этой точке: 0.692200.",
+        "conversation_message_id": 549,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 237666403,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291948,
+        "from_id": -199959551,
+        "id": 1046,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "Уважаемый Владимир Латыпов, кажется, Ваше сообщение \"optimize x^x | for x in -0.001; 1 | minorant 0\" является корректной командой Quick Input Mode, поэтому запущен процесс \"optimize\" с аргументами: \n{\n    \"variables\": [\n        \"x\"\n    ],\n    \"variable_ranges\": {\n        \"x\": [\n            -0.001,\n            1.0\n        ]\n    },\n    \"function\": \"x^x\",\n    \"target_minimum\": 0.0\n}\n Ждите завершения обраБОТки запроса.",
+        "conversation_message_id": 548,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": -443669542,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627291946,
+        "from_id": 215659697,
+        "id": 1045,
+        "out": 0,
+        "peer_id": 215659697,
+        "text": "optimize x^x | for x in -0.001; 1 | minorant 0",
+        "conversation_message_id": 547,
+        "fwd_messages": [],
+        "important": false,
+        "random_id": 0,
+        "attachments": [],
+        "is_hidden": false
+    },
+    {
+        "date": 1627289603,
+        "from_id": -199959551,
+        "id": 1044,
+        "out": 1,
+        "peer_id": 215659697,
+        "text": "В данный момент Вы не находитесь ни в одном особенном виде общения, причём Ваше сообщение не является корректной командой Quick Input Mode. Пожалуйста, выберите необходимую опцию на клавиатуре, введите её самостоятельно, или же исползуйте команды Quick Input Mode.",
+        "conversation_message_id": 546,
         "fwd_messages": [],
         "keyboard": {
             "one_time": true,
@@ -129,244 +282,35 @@
                     {
                         "action": {
                             "type": "text",
-                            "label": "Целевая функция",
+                            "label": "Оптимизировать функцию",
                             "payload": ""
                         },
-                        "color": "negative"
-                    }
-                ],
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Предполагаемый минимум",
-                            "payload": ""
-                        },
-                        "color": "negative"
+                        "color": "primary"
                     },
                     {
                         "action": {
                             "type": "text",
-                            "label": "Диапазоны переменных",
+                            "label": "Решить уравнение",
                             "payload": ""
                         },
-                        "color": "positive"
+                        "color": "primary"
                     }
                 ],
                 [
                     {
                         "action": {
                             "type": "text",
-                            "label": "В главное меню",
+                            "label": "Построить график",
                             "payload": ""
                         },
-                        "color": "default"
+                        "color": "primary"
                     }
                 ]
             ],
             "inline": false
         },
         "important": false,
-        "random_id": -1412621023,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151067,
-        "from_id": -199959551,
-        "id": 576,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Отлично! Но Вы указали не все аргументы.",
-        "conversation_message_id": 319,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 1776099755,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151067,
-        "from_id": -199959551,
-        "id": 575,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Предполагаемый минимум установлен! Вот он: -1.0",
-        "conversation_message_id": 318,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 446581109,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151066,
-        "from_id": 215659697,
-        "id": 574,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "-1.0",
-        "conversation_message_id": 317,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151061,
-        "from_id": -199959551,
-        "id": 573,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Информация об аргументе \"Предполагаемый минимум\": \n \"Подтвердите, что целевая функция ограничена снизу на рассматриваемом множестве. Для этого введите произвольную известную Вам нижнюю границу множества значений функции (на данном множестве). В случае если введённое число не окажется минорирующим для исходной функции, бот будет работать с заметными погрешностями. \". \n\nВот корректный пример использования: \"0.1 или -23.9e30\"",
-        "conversation_message_id": 316,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 1674038839,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151060,
-        "from_id": -199959551,
-        "id": 572,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Отлично! Теперь укажите значение этого аргумента.",
-        "conversation_message_id": 315,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": -912910138,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151059,
-        "from_id": 215659697,
-        "id": 571,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "Предполагаемый минимум",
-        "conversation_message_id": 314,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151057,
-        "from_id": -199959551,
-        "id": 570,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Выберите аргумент, значение которого хотите установить / изменить.",
-        "conversation_message_id": 313,
-        "fwd_messages": [],
-        "keyboard": {
-            "one_time": true,
-            "author_id": -199959551,
-            "buttons": [
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Целевая функция",
-                            "payload": ""
-                        },
-                        "color": "negative"
-                    }
-                ],
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Предполагаемый минимум",
-                            "payload": ""
-                        },
-                        "color": "positive"
-                    },
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "Диапазоны переменных",
-                            "payload": ""
-                        },
-                        "color": "positive"
-                    }
-                ],
-                [
-                    {
-                        "action": {
-                            "type": "text",
-                            "label": "В главное меню",
-                            "payload": ""
-                        },
-                        "color": "default"
-                    }
-                ]
-            ],
-            "inline": false
-        },
-        "important": false,
-        "random_id": -1080064645,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151056,
-        "from_id": -199959551,
-        "id": 569,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Отлично! Но Вы указали не все аргументы.",
-        "conversation_message_id": 312,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 2067680788,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151056,
-        "from_id": -199959551,
-        "id": 568,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Функция принята. Переменные в Вашей функции: ['x', 'y']",
-        "conversation_message_id": 311,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 1533318309,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151055,
-        "from_id": 215659697,
-        "id": 567,
-        "out": 0,
-        "peer_id": 215659697,
-        "text": "0.5 + (cos(sin(abs(x^2 - y^2)))^2 - 0.5) / (1 + 0.001(x^2 + y^2))^2",
-        "conversation_message_id": 310,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": 0,
-        "attachments": [],
-        "is_hidden": false
-    },
-    {
-        "date": 1627151051,
-        "from_id": -199959551,
-        "id": 566,
-        "out": 1,
-        "peer_id": 215659697,
-        "text": "Информация об аргументе \"Целевая функция\": \n \"Введите функцию, которую Вы желаете оптимизировать.\". \n\nВот корректный пример использования: \"0.5 + (cos(sin(abs(x^2 - y^2)))^2 - 0.5) / (1 + 0.001(x^2 + y^2))^2\"",
-        "conversation_message_id": 309,
-        "fwd_messages": [],
-        "important": false,
-        "random_id": -1336269957,
+        "random_id": -1623444557,
         "attachments": [],
         "is_hidden": false
     }
