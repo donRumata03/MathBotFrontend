@@ -34,8 +34,8 @@ def launch_in_new_thread(command_parts: List[str], output_path: str):
 
 if __name__ == '__main__':
     launch_in_new_thread(
-        ["D:/Projects/MathBot/MathBotBackend/cmake-build-release/Math_bot_backend.exe", "solve", "D:/Projects/MathBot/queries/215659697/562.json"],
-        "D:/Projects/MathBot/results/215659697/562.txt"
+        ["D:/Projects/MathBot/MathBotBackend/cmake-build-release/Math_bot_backend.exe", "solve", "D:/Projects/MathBot/queries/215659697/627.json"],
+        "D:/Projects/MathBot/results/215659697/627.txt"
     )
     time.sleep(10)
     print("Processed everything!")

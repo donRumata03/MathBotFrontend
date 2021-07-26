@@ -18,7 +18,7 @@ class BotInstance(Enum):
 	TEST_TEST_MATH_BOT = 3
 
 ######################################################################################################
-bot_instance = BotInstance.TEST_MATH_BOT       ###### <-- The thing to change          ##########
+bot_instance = BotInstance.TEST_TEST_MATH_BOT       ###### <-- The thing to change          ##########
 ######################################################################################################
 
 
@@ -87,4 +87,4 @@ elif os.name == "nt":
 
 # Regulating performance
 optimizing_iterations = solving_iterations = 1000000
-max_query_processing_time_sec = 30
+max_query_processing_time_sec = 20

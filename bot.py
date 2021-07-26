@@ -701,7 +701,7 @@ class Bot:
         #     self.send_message(user_id, speaker.get_text_for_non_subscribed(self.subscribe_check_group_name))
         #     return
 
-        if text in aborting_texts:
+        if text.lower() in aborting_texts:
             self.reset_user(user_id)
             self.show_command_keyboard(user_id)
             return
