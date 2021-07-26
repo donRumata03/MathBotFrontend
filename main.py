@@ -14,5 +14,5 @@ if __name__ == '__main__':
 		interpreter_name = "python3"
 
 	while True:
-		os.system(interpreter_name + " " + str(MathBot_root_dir / "MathBotFrontEnd" / "bot.py"))
+		os.system(interpreter_name + " " + str(MathBot_root_dir / "MathBotFrontend" / "bot.py"))
 		print("[MAIN]: NOT CAUGHT EXCEPTION IN MAIN ==> Rerunning…")
