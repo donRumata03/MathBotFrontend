@@ -46,10 +46,14 @@ elif bot_instance == BotInstance.TEST_TEST_MATH_BOT:
 mainloop_delay_sec = 0.1
 OUTPUT_DEBUG_INFORMATION = True
 
+OS = None
+
 if os.name == "posix":
 	# There are no .exe's in linux...
+	OS = "linux"
 	executable_name = "Math_bot_backend"
 elif os.name == "nt":
+	OS = "windows"
 	executable_name = "Math_bot_backend.exe"
 else:
 	print(f"Unknown system name: {os.name}")
@@ -83,4 +87,4 @@ elif os.name == "nt":
 
 # Regulating performance
 optimizing_iterations = solving_iterations = 1000000
-max_query_processing_time_sec = 5
+max_query_processing_time_sec = 20
