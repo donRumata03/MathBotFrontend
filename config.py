@@ -86,5 +86,5 @@ elif os.name == "nt":
 	white_button_coloring = VkKeyboardColor.DEFAULT
 
 # Regulating performance
-optimizing_iterations = solving_iterations = 1000000
+optimizing_iterations = solving_iterations = 400000
 max_query_processing_time_sec = 20
